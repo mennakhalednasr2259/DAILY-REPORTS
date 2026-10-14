@@ -40,9 +40,11 @@
       <div class="report-writing-area">
         <label class="editor-label" for="daily-report-text">{{ $t('Write your daily report') }}</label>
         <div class="template-toolbar">
-          <span class="template-label">{{ $t('Quick templates') }}:</span>
-          <button v-for="item in templates" :key="item.key" class="button button-secondary template-button" type="button" @click="applyTemplate(item)">{{ $t(item.label) }}</button>
-          <button class="button button-secondary template-button" type="button" @click="importCompletedTasks">{{ $t('Import completed tasks') }}</button>
+          <div class="template-presets">
+            <span class="template-label">{{ $t('Quick templates') }}:</span>
+            <button v-for="item in templates" :key="item.key" class="button button-secondary template-button" type="button" @click="applyTemplate(item)">{{ $t(item.label) }}</button>
+          </div>
+          <button class="button button-outline template-import" type="button" @click="importCompletedTasks"><v-icon small>mdi-import</v-icon>{{ $t('Import completed tasks') }}</button>
         </div>
         <div class="editor-toolbar" role="toolbar" :aria-label="$t('Report formatting')">
           <button v-for="tool in formattingTools" :key="tool.command" class="editor-tool" type="button" :aria-label="$t(tool.label)" :title="$t(tool.label)" @mousedown.prevent="formatText(tool.command)"><v-icon small>{{ tool.icon }}</v-icon></button>

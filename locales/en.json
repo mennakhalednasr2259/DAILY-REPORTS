@@ -30,7 +30,7 @@
   "All teams": "All teams",
   "Team frontend": "Frontend",
   "Team backend": "Backend",
-  "Team testing": "QA",
+  "Team testing": "Testing",
   "Team design": "Design",
   "Status": "Status",
   "All statuses": "All statuses",
@@ -139,6 +139,8 @@
   "PDF exported": "PDF report downloaded.",
   "PDF export failed": "Could not generate the PDF file.",
   "Date Range": "Date Range",
+  "Report period": "Report period",
+  "Choose date": "Choose date",
   "Select report date": "Select report date",
   "Report assignment": "Report assignment",
   "Choose whether this report is for you or for another employee": "Choose whether this report is for you or another employee",
@@ -152,5 +154,6 @@
   "Clear formatting": "Clear formatting",
   "Enter link URL": "Enter a link URL",
   "OK": "OK",
-  "More actions": "More actions"
+  "More actions": "More actions",
+  "Export reports": "Export reports"
 }

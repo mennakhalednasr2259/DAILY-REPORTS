@@ -13,6 +13,7 @@
             </button>
           </template>
           <v-list dense>
+            <v-subheader class="reports-actions-menu__heading">{{ $t('Export reports') }}</v-subheader>
             <v-list-item @click="exportExcel">
               <v-list-item-icon><v-icon small>mdi-microsoft-excel</v-icon></v-list-item-icon>
               <v-list-item-title>{{ $t('Export Excel') }}</v-list-item-title>
@@ -21,6 +22,7 @@
               <v-list-item-icon><v-icon small>mdi-file-pdf-box</v-icon></v-list-item-icon>
               <v-list-item-title>{{ $t('Weekly PDF') }}</v-list-item-title>
             </v-list-item>
+            <v-divider class="my-1" />
             <v-list-item @click="sendReportReminders">
               <v-list-item-icon><v-icon small>mdi-bell-outline</v-icon></v-list-item-icon>
               <v-list-item-title>{{ $t('Send report reminders') }}</v-list-item-title>

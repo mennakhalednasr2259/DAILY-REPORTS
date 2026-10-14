@@ -30,7 +30,7 @@
   "All teams": "كل الفرق",
   "Team frontend": "الواجهة الأمامية",
   "Team backend": "الواجهة الخلفية",
-  "Team testing": "ضمان الجودة",
+  "Team testing": "الاختبار",
   "Team design": "التصميم",
   "Status": "الحالة",
   "All statuses": "كل الحالات",
@@ -139,6 +139,8 @@
   "PDF exported": "تم تنزيل تقرير PDF.",
   "PDF export failed": "تعذر إنشاء ملف PDF.",
   "Date Range": "نطاق التاريخ",
+  "Report period": "الفترة الزمنية للتقرير",
+  "Choose date": "اختر التاريخ",
   "Select report date": "اختر تاريخ التقرير",
   "Report assignment": "تحديد صاحب التقرير",
   "Choose whether this report is for you or for another employee": "اختر ما إذا كان التقرير لك أم لموظف آخر",
@@ -152,5 +154,6 @@
   "Clear formatting": "مسح التنسيق",
   "Enter link URL": "أدخل رابطًا",
   "OK": "موافق",
-  "More actions": "إجراءات أخرى"
+  "More actions": "إجراءات أخرى",
+  "Export reports": "تصدير التقارير"
 }
